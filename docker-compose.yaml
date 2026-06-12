@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - density_data:/app/data
+
+volumes:
+  density_data:
