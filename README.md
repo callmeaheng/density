@@ -2,6 +2,8 @@
 
 Density is a mobile-first full-stack application by callmeaheng.
 
+This project was originally developed as a private project and has now been made public as an interview portfolio project. It demonstrates a practical full-stack mobile architecture with a Python API, a Flutter client, and Docker-based backend deployment.
+
 - Backend: Python + Django REST Framework
 - Frontend: Flutter
 - Runtime: Docker Compose for the API
